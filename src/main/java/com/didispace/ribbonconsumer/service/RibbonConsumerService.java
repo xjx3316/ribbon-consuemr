@@ -10,9 +10,9 @@ import org.springframework.web.client.RestTemplate;
  * Created by xjx on 2018/11/14.
  */
 @Service
-public class HelloService {
+public class RibbonConsumerService {
 
-    private final Logger LOG = Logger.getLogger(HelloService.class);
+    private final Logger LOG = Logger.getLogger(RibbonConsumerService.class);
     @Autowired
     private RestTemplate restTemplate;
 
